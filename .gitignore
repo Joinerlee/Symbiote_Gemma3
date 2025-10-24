@@ -205,3 +205,34 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# PyTorch & Deep Learning
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+
+# Training artifacts
+checkpoints/
+outputs/
+runs/
+logs/
+
+# WandB (Weights & Biases)
+wandb/
+
+# Dataset cache
+data/
+datasets/
+*.arrow
+*.cache
+
+# Hugging Face
+.huggingface/
+hf_cache/
+
+# Model outputs
+generated/
+results/
+
